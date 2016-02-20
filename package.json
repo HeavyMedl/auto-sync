@@ -1,0 +1,40 @@
+{
+  "name": "auto-sync",
+  "version": "0.0.0",
+  "description": "Watch for directory changes and trigger LFTP operations.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kurtlocker/auto-sync.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "node_modules/.bin/jsdoc . -t node_modules/minami -d gh-pages/ -R README.md; exit 0"
+  },
+  "keywords": [
+    "ftp",
+    "sftp",
+    "lftp",
+    "remote",
+    "seedbox",
+    "copy",
+    "sync",
+    "client",
+    "transfer",
+    "file",
+    "automate",
+    "deploy",
+    "deployment",
+    "automation"
+  ],
+  "author": "Kurt Medley <kurtdmedley@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurtlocker/auto-sync/issues"
+  },
+  "homepage": "https://github.com/kurtlocker/auto-sync",
+  "devDependencies": {
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1"
+  }
+}
