@@ -1,3 +1,14 @@
-*.FASL
-*.fasl
-*.lisp-temp
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+npm-debug.log
+
+# Others
+node_modules/
+gh-pages/
