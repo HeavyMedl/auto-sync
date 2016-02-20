@@ -1,5 +1,5 @@
 {
-  "name": "auto-sync",
+  "name": "auto-sync", 
   "version": "0.0.0",
   "description": "Watch for directory changes and trigger LFTP operations.",
   "main": "index.js",
