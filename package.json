@@ -1,5 +1,5 @@
 {
-  "name": "auto-sync", 
+  "name": "auto-sync",
   "version": "0.0.0",
   "description": "Watch for directory changes and trigger LFTP operations.",
   "main": "index.js",
@@ -36,5 +36,9 @@
   "devDependencies": {
     "jsdoc": "^3.4.0",
     "minami": "^1.1.1"
+  },
+  "dependencies": {
+    "remote-sync": "^1.0.1",
+    "watch": "^0.17.1"
   }
 }
